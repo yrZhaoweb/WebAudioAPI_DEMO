@@ -1,0 +1,146 @@
+/* demo1 */
+
+html,body {
+  height: 100%;
+  position: relative;
+}
+
+button {
+  display: inline-block;
+  width: 80px;
+  height: 42px;
+}
+
+.demo1-wrap {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  
+  .wrap {
+    text-align: center;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background-color: black;
+    .input {
+      display: inline-block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 80px;
+      height: 42px;
+      line-height: 42px;
+      text-align: center;
+      background-color: #409eff;
+    }
+    .play {
+      display: inline-block;
+      position: absolute;
+      left: 0;
+      top: 50px;
+      width: 80px;
+      height: 42px;
+      line-height: 42px;
+      text-align: center;
+      background-color: #409eff;
+    }
+    canvas {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      border: 1px solid black;
+    }
+  }
+}
+
+/* demo2 */
+
+.demo2-wrap {
+  width: 100%;
+  height: 600px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  border: 1px solid black;
+  display: flex;
+  .cut {
+    display: inline-block;
+    position: absolute;
+    left: 180px;
+    top: 0;
+    width: 150px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    background-color: #409eff;
+  }
+  .play {
+    display: inline-block;
+    position: absolute;
+    left: 90px;
+    top: 0;
+    width: 80px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    background-color: #409eff;
+  }
+  .input {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 80px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    background-color: #409eff;
+  }
+  .canvas {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border: 1px solid black;
+  }
+  .title {
+    position: absolute;
+    left: 0;
+    top: 100px;
+  }
+}
+
+.demo3-wrap {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  .keyWrap {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100px;
+    margin: auto;
+    height: 100%;
+    width: 570px;
+  }
+  .key {
+    width: 80px;
+    height: 200px;
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid black;
+    background-color: white;
+    float: left;
+    user-select: none;
+    .keyName {
+      margin-top: 50px;
+    }
+  }
+  .clicked {
+    background-color: rgba(0,0,0,0.3);
+  }
+}
+
